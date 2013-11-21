@@ -1,0 +1,63 @@
+Initialize engine version: 4.2.2f1 (54f0fc09defb)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvd3dum.dll 9.18.13.2723]
+    Renderer: NVIDIA GeForce GT 520 
+    Vendor:   NVIDIA
+    VRAM:     978 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Chad\Documents\RiftPool\RiftPool_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
+desktop: 1600x1200 60Hz; virtual: 1600x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_009'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_010'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_011'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_012'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_009'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_010'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_011'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Cube_012'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Circle_001'
+ 
+(Filename:  Line: 1489)
+
+[mecanim]: BindSkeleton: cannot find Transform 'Plane'
+ 
+(Filename:  Line: 1489)
+

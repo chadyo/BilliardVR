@@ -1,0 +1,31 @@
+Pool-Table
+
+Optimised for Cycles (Cycles Shaders/Materials)
+
+By. Jay Hardy 2012
+
+
+
+Hi, here's a few details to help you work with this model.
+
+The pool table is set to real world scale, i.e. if measurements in blender are set to metric, everything should match real world scale. This makes it easier to integrate my models with others that match real world scale.
+
+Shallow Depth-Of-Field – Where the background and foreground is out of focus...
+Please note that currently (2.61) camera dof does not work well when objects are shrunk to real world scale. 
+
+Instead I would suggest if you want shallow depth-of-field with this model, scale up the table (5+ metres) and other elements to  (not the camera) until the camera is it's usual default size compared to the model.
+
+The table cloth texture is 2048x2048, this is good, but not the best for very close up shots – for those, use the above method to scale up the table and using some shallow dof will hide some of the blocky grain in the texture.
+
+For noobs, if you prefer a green, red, or blue table cloth etc, it's easy enough to change the colour of the texture in Photoshop/Gimp.
+
+Please note: I take no responsibility for balls lost down the pockets, there's no mechanical interior to the table and that's why I didn't model any keys for it either ;)
+
+Hope you guys like it, if so please comment or rate it, maybe both?
+
+For the license, just please credit me and say I created the original.
+
+If you need to contact me for any reason, please use the following email:
+meowsayscat@gmail.com
+
+Laterz, Jay.

@@ -1,0 +1,126 @@
+--------------------
+
+What's new in V0.2.5
+--------------------
+
+- Calibration tool: Improved Magnetometer calibration
+
+API Changes:
+- Reading of absolute raw sensor values (accel, gyro and mag) now exposed in OVRDevice.cs:
+    GetAcceleration
+    GetAngularVelocity
+    GetMagnetometer
+
+- Removed AccelGain field from OVRDevices
+
+- Removed Magnetometer calibration
+
+Defects Fixed in V0.2.5:
+- Properties fields added to OVRCameraController in V0.2.4 were not correctly saved with scene file. 
+
+Known Defects in V0.2.5:
+- (none)
+
+--------------------
+
+What's new in V0.2.4
+--------------------
+NOTE: Latest Unity build required (4.2.0) 
+
+Linux (Ubuntu 32 and 64 bit) support, including joypad control (XBox wired and wireless).
+
+Antialiasing (MSAA) of render targets are now available (new in 0.4.2)
+
+Unity will now use magnetometer calibration from the calibration tool if it exists.
+
+Ability to keep tracker from resetting when loading scenes, which allows orientation to be maintained
+across scene loading.
+
+Many of the member variables in OVRCamera have been converted to properties, which allows them to be changed on fly. 
+This includes the following variables:
+
+Vertical FOV
+IPD
+Background Color
+Near / Far Clip Plane
+
+--------------------
+
+What's new in V0.2.3
+--------------------
+New Tuscany assets! NOTE: Latest Unity build required (4.1.3) 
+
+Oculus Config Tool added to all packages: User can set IPD and Player Eye Height in Oculus Config Tool
+
+'UsePlayerEyeHeight' bool added in OVRCameraController; If set, will use player height set in Oculus Config Tool 
+
+Manual magnetometer calibration mode has been updated to be more robust 
+
+Bug fix to C# messaging system; error messages in console will not show up, delegate names changed to avoid name clashes
+
+Fixed an OSX gamepad controller bug, causing editor to crash when trying to add an OVRPlayerController
+
+FIxed a rare bug where the right camera would render and stay completely white; issue has been fixed for Win and Mac
+
+Crosshair rendering is now done on main 3D menu display target 
+
+Minor code refactor
+
+--------------------
+
+What's new in V0.2.2
+--------------------
+Added magnetometer yaw-drift correction (manual and automatic modes)
+
+Added detection of sensor plugging and unplugging (for tracker, HMD and latency tester)
+
+Added native support for game-pad controllers on Mac (currently PS3 and Logitech wireless F710)
+
+Fixed Mac 10.6 compatability issue; required libstdc++ to be used to avoid a 'black screen' crash
+
+Changed main menu HUD to be rendered in 3D
+
+Fixed skybox to render properly on MacOS
+
+Functions in OVRCameraController to attach objects to the camera for the use of HUD elements
+
+Enhanced inspector view for OVRCameraController component
+
+Minor bug fixes and code refactor
+
+
+--------------------
+
+What's new in V0.2.1
+--------------------
+
+Added functions in OVRCameraController to get orientation of tracker 
+(GetCameraOrientationEulerAngles and GetCameraOrientation)
+
+Exposed the following members in OVRCameraController:
+
+ PredictionOn
+ CallInPreRender
+ WireMode
+ LensCorrection
+ Chromatic 
+ (please read Unity Integration Guide for usage of the above)
+ 
+64-bit Windows build supported 
+
+MacOS support
+
+Deferred rendering shadow fix
+
+Chromatic Abberation fix in lens warp shader
+
+Fixed projection center to lens distortion center, decoupling IPD from projection center
+
+Bug fixes and code refactoring
+
+--------------------
+
+V0.1.5
+--------------------
+
+Initial release of Oculus Unity integration.
